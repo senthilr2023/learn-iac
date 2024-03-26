@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Into Shell script"
+
 RESOURCE_GROUP_NAME=tfbasics
-STORAGE_ACCOUNT_NAME=stbasicstf
+STORAGE_ACCOUNT_NAME=stbasicstf5673
 CONTAINER_NAME=tfstate
 
 # Create resource group
