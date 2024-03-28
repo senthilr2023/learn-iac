@@ -14,7 +14,7 @@ terraform {
     resource_group_name  = "tfbasics"
     storage_account_name = "stbasicstf5673"
     container_name       = "tfstate"
-    key                  = "Bju6Il3JGC/qrj6CcJqtbT/dp07+JJR0U+FznmU4aHWLAPg+lfUDpcCKSzuTHTtUjMCawBYzVEgn+ASt6Lmvtg=="
+    key                  = "<storageAccountKey"
   }
 }
 
