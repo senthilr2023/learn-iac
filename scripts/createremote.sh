@@ -1,8 +1,14 @@
 #!/bin/bash
 
-RESOURCE_GROUP_NAME=tfbasics
-STORAGE_ACCOUNT_NAME=stbasicstf5673
-CONTAINER_NAME=tfstate
+#Make sure you're connected to azure environment before executing this script
+# use az login - to login to the azure environment
+# use az account set -subscription "<subscriptionid>"
+
+#update the below variables
+
+RESOURCE_GROUP_NAME=resourcegroup_name
+STORAGE_ACCOUNT_NAME=storage_name
+CONTAINER_NAME=container_name
 
 # Create resource group
 az group create --name $RESOURCE_GROUP_NAME --location westeurope

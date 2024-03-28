@@ -11,9 +11,9 @@ terraform {
   }
   #the key should ideally be placed in a keyvault or in a environment variable so that it is not written in the disk
     backend "azurerm" {
-    resource_group_name  = "tfbasics"
-    storage_account_name = "stbasicstf5673"
-    container_name       = "tfstate"
+    resource_group_name  = "<resourcegroup_name>"
+    storage_account_name = "<storageaccount_name>"
+    container_name       = "<container_name>"
     key                  = "<storageAccountKey"
   }
 }
