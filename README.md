@@ -1,13 +1,13 @@
 # 101 - Terraform Basics
 
 ## 1. Setup Terraform
-Follow the Hashicorp [tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) on how to setup Terraform  
+Follow the Hashicorp [tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) on how to setup Terraform in your machine   
 
 ## 2. Connect to Azure 
-Use Azure CLI to connect to Azure subscription
+Use Azure CLI to connect to Azure subscription <br>
 `az login`
 
-If you have multiple subscriptions and want to set a specific one as the default:
+If you have multiple subscriptions and want to set a specific one as the default: <br>
 `az account set -subscription "<subscriptionid>"`
 
 ## 3. Create Storage account to store Terraform State
